@@ -8,7 +8,7 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-      <footer>{timestamp}</footer>
+      <footer>{timestamp} Copyright Josh Inc.</footer>
       </body>
     </html>
   );
